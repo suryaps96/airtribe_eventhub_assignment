@@ -130,5 +130,24 @@ python manage.py check
 
 ---
 
+## API Testing (Postman)
+
+The following screenshots demonstrate successful reservations, overbooking validation, and reservation cancellation.
+
+### 1. Successful Reservation — 201 Created
+
+![Successful reservation](screenshots/reservation-success.png)
+
+### 2. Overbooking Failure — 400 Bad Request
+
+![Overbooking validation failure](screenshots/overbooking-failure.png)
+
+### 3. Successful Reservation Cancellation
+
+![Successful reservation cancellation](screenshots/reservation-cancellation.png)
+
+
+_________
+
 Built as a backend project to practise Django REST Framework, REST API design, serializers, validation, custom ViewSet actions, and middleware.
 e
